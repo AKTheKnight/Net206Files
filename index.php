@@ -1,7 +1,7 @@
 <?php
-echo gethostname() . ”<br>\n";
+echo gethostname() . "<br>\n";
 $UniID = "10567939";
-$IAM = “alexander@3475-4647-3148";
+$IAM = "alexander@3475-4647-3148";
 echo hash('md5',$UniID) . "<br>\n";
 echo hash('md5',$IAM) . "<br>\n";
 $i = 1;
